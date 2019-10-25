@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-404",
+  "version": "0.1.0",
+  "description": "Nuxt.js module to render trendy 404 pages.",
+  "main": "module.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt dev ./example",
+    "lint": "eslint --ext .js,.vue ."
+  },
+  "dependencies": {
+    "lodash.random": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "nuxt": "^2.10.2",
+    "prettier": "^1.18.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:vue/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    }
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  }
+}
