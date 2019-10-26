@@ -4,6 +4,13 @@
 <p align="center">
   <img src="https://badgen.net/npm/v/@luciorubeens/nuxt-404" />
   <img src="https://badgen.net/badge/license/MIT/blue" />
+  <a title="Netlify Status" href="https://app.netlify.com/sites/nuxt-404-module/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/02178e55-a0ef-40b6-8749-fa914086a527/deploy-status">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://nuxt-404-module.netlify.com/404">Open Preview</a>
 </p>
 
 ## Installation
@@ -40,36 +47,6 @@ Add `@luciorubeens/nuxt-404` to modules section of `nuxt.config.js`:
 | `colorText` | Illustration color | Text color |
 | `linkText` | `Click here to return to home.` | Text to display on anchor link |
 
-## Illustrations
-
-Click on the name to see the illustration.
-
-| Name | Source |
-| ---- | ------ |
-| [Space](./src/images/Space.png) | Ionic Framework |
-| [UnDraw](./src/images/UnDraw.png) | unDraw |
-| [Confused Travolta](./src/images/ConfusedTravolta.png) | Nuxt.js |
-| [Mailchimp](./src/images/Mailchimp.png) | Mailchimp |
-| [Astronaut](./src/images/Astronaut.png) | Kapwing | 
-| [Ballon Lost](./src/images/BallonLost.png) | Kapwing | 
-| [Boat Leak](./src/images/BoatLeak.png) | Kapwing | 
-| [Broken Clock](./src/images/BrokenClock.png) | Kapwing | 
-| [Broken Mug](./src/images/BrokenMug.png) | Kapwing | 
-| [Burnt Toast](./src/images/BurntToast.png) | Kapwing | 
-| [Caution Tape](./src/images/CautionTape.png) | Kapwing | 
-| [Dog Ate](./src/images/DogAte.png) | Kapwing | 
-| [Ghost](./src/images/Ghost.png) | Kapwing | 
-| [Ice Cream Spill](./src/images/IceCreamSpill.png) | Kapwing | 
-| [Kids Toy](./src/images/Kid_sToy.png) | Kapwing | 
-| [Loch Ness](./src/images/LochNess.png) | Kapwing | 
-| [Lost Keys](./src/images/LostKeys.png) | Kapwing | 
-| [Lost Tourist](./src/images/LostTourist.png) | Kapwing | 
-| [Ostrich](./src/images/Ostrich.png) | Kapwing | 
-| [Pizza Box](./src/images/PizzaBox.png) | Kapwing | 
-| [Shoes Tied](./src/images/ShoesTied.png) | Kapwing | 
-| [Spilled Milk](./src/images/SpilledMilk.png) | Kapwing | 
-| [Trash](./src/images/Trash.png) | Kapwing |
-
 ## Usage
 
 ### Specific illustrations
@@ -99,6 +76,36 @@ Click on the name to see the illustration.
   }
 }
 ```
+
+## Illustrations
+
+Click on the name to see the illustration.
+
+| Name | Source |
+| ---- | ------ |
+| [Space](./src/images/Space.png) | Ionic Framework |
+| [UnDraw](./src/images/UnDraw.png) | unDraw |
+| [Confused Travolta](./src/images/ConfusedTravolta.png) | Nuxt.js |
+| [Mailchimp](./src/images/Mailchimp.png) | Mailchimp |
+| [Astronaut](./src/images/Astronaut.png) | Kapwing | 
+| [Ballon Lost](./src/images/BallonLost.png) | Kapwing | 
+| [Boat Leak](./src/images/BoatLeak.png) | Kapwing | 
+| [Broken Clock](./src/images/BrokenClock.png) | Kapwing | 
+| [Broken Mug](./src/images/BrokenMug.png) | Kapwing | 
+| [Burnt Toast](./src/images/BurntToast.png) | Kapwing | 
+| [Caution Tape](./src/images/CautionTape.png) | Kapwing | 
+| [Dog Ate](./src/images/DogAte.png) | Kapwing | 
+| [Ghost](./src/images/Ghost.png) | Kapwing | 
+| [Ice Cream Spill](./src/images/IceCreamSpill.png) | Kapwing | 
+| [Kids Toy](./src/images/Kid_sToy.png) | Kapwing | 
+| [Loch Ness](./src/images/LochNess.png) | Kapwing | 
+| [Lost Keys](./src/images/LostKeys.png) | Kapwing | 
+| [Lost Tourist](./src/images/LostTourist.png) | Kapwing | 
+| [Ostrich](./src/images/Ostrich.png) | Kapwing | 
+| [Pizza Box](./src/images/PizzaBox.png) | Kapwing | 
+| [Shoes Tied](./src/images/ShoesTied.png) | Kapwing | 
+| [Spilled Milk](./src/images/SpilledMilk.png) | Kapwing | 
+| [Trash](./src/images/Trash.png) | Kapwing |
 
 ## Disclaimer
 

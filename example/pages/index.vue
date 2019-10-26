@@ -1,3 +1,3 @@
 <template>
-  <h1>Example</h1>
+  <a href="/404">Go to page not found</a>
 </template>

@@ -4,6 +4,7 @@
   "description": "Nuxt.js module to render trendy 404 pages.",
   "main": "module.js",
   "license": "MIT",
+  "private": false,
   "keywords": [
     "vue",
     "nuxt",
