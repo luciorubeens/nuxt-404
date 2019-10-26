@@ -33,12 +33,12 @@ Add `@luciorubeens/nuxt-404` to modules section of `nuxt.config.js`:
 
 | Option | Default | Description |
 | ------ | ------- | ----------- |
-| names | [See list below](#Illustrations) | Array of illustration names to display randomly |
-| title | Illustration's title | Page title |
-| description | Illustration's description | Page subtitle |
-| colorBg | Illustration's background | Page background color |
-| colorText | Illustration's color | Text color |
-| linkText | `Click here to return to home.` | Text to display on anchor link |
+| `names` | [See list below](#Illustrations) | Array of illustration names to display randomly |
+| `title` | Illustration title | Page title |
+| `description` | Illustration description | Page subtitle |
+| `colorBg` | Illustration background | Page background color |
+| `colorText` | Illustration color | Text color |
+| `linkText` | `Click here to return to home.` | Text to display on anchor link |
 
 ## Illustrations
 
@@ -74,6 +74,7 @@ Click on the name to see the illustration.
 
 ### Specific illustrations
 
+```js
 {
   modules: [
     '@luciorubeens/nuxt-404',
@@ -82,9 +83,11 @@ Click on the name to see the illustration.
     names: ['Confused Travolta', 'Space']
   }
 }
+```
 
 ### Custom options
 
+```js
 {
   modules: [
     '@luciorubeens/nuxt-404',
@@ -95,6 +98,7 @@ Click on the name to see the illustration.
     colorText: '#333333'
   }
 }
+```
 
 ## Disclaimer
 
