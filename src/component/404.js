@@ -21,6 +21,7 @@ export default {
         : this.options.description || properties.description
     const backgroundColor = this.options.colorBg || properties.colorBg
     const textColor = this.options.colorText || properties.colorText
+    const linkText = this.options.linkText
 
     return h(
       'div',
@@ -75,15 +76,7 @@ export default {
               {
                 class: 'p404__content__link',
               },
-              [
-                'In the meantime, ',
-                h(
-                  'a',
-                  { attrs: { href: '/' } },
-                  'click here to return to home'
-                ),
-                '.',
-              ]
+              [h('a', { attrs: { href: '/' } }, linkText)]
             ),
           ]
         ),

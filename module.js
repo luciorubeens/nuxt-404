@@ -1,5 +1,14 @@
 module.exports = function(moduleOptions) {
-  const options = Object.assign({}, this.options.p404, moduleOptions)
+  const defaultOptions = {
+    linkText: 'Click here to return to home.',
+  }
+
+  const options = Object.assign(
+    {},
+    defaultOptions,
+    this.options.p404,
+    moduleOptions
+  )
 
   this.options.env = {
     ...this.options.env,

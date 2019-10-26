@@ -25,7 +25,7 @@
   display: block;
   max-width: 25rem;
   margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .p404__content__illustration__img {
   display: block;
@@ -38,6 +38,6 @@
   font-size: 2rem;
   letter-spacing: 0.1rem;
 }
-.p404__content__description {
+.p404__content__link {
   margin-bottom: 1rem;
 }
