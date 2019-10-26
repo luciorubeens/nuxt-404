@@ -1,4 +1,7 @@
 module.exports = {
+  generate: {
+    fallback: true,
+  },
   head: {
     link: [
       {
