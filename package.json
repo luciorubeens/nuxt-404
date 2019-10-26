@@ -1,9 +1,20 @@
 {
-  "name": "nuxt-404",
+  "name": "@luciorubeens/nuxt-404",
   "version": "0.1.0",
   "description": "Nuxt.js module to render trendy 404 pages.",
   "main": "module.js",
   "license": "MIT",
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxtjs",
+    "nuxt-module",
+    "404"
+  ],
+  "author": {
+    "name": "Lúcio Rubens",
+    "email": "luciorubeens@gmail.com"
+  },
   "scripts": {
     "dev": "nuxt dev ./example",
     "lint": "eslint --ext .js,.vue ."
